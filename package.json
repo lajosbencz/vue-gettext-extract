@@ -1,6 +1,6 @@
 {
   "name": "vue-gettext-extract",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Generates gettext pot files for standard Vue projects",
   "main": "lib/index.js",
   "bin": {
