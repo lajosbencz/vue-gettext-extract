@@ -1,0 +1,43 @@
+{
+  "name": "vue-gettext-extract",
+  "version": "0.1.0",
+  "description": "Generates gettext pot files for standard Vue projects",
+  "main": "lib/index.js",
+  "bin": {
+    "vue-gettext-extract": "extract.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lajosbencz/vue-gettext-extract.git"
+  },
+  "keywords": [
+    "vue",
+    "nuxt",
+    "gettext",
+    "extract"
+  ],
+  "author": "Lajos Bencz <lazos@lazos.me>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/lajosbencz/vue-gettext-extract/issues"
+  },
+  "homepage": "https://github.com/lajosbencz/vue-gettext-extract#readme",
+  "dependencies": {
+    "gettext-extractor": "^3.5.2",
+    "glob": "^7.1.6",
+    "parse5-sax-parser": "^5.1.1",
+    "typescript": "^3.7.5",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-vue": "^6.1.2"
+  }
+}
