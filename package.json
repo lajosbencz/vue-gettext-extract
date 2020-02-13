@@ -4,7 +4,7 @@
   "description": "Generates gettext pot files for standard Vue projects",
   "main": "lib/index.js",
   "bin": {
-    "vue-gettext-extract": "./bin/extract"
+    "vue-gettext-extract": "bin/extract"
   },
   "directories": {
     "lib": "lib"
