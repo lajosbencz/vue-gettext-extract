@@ -1,6 +1,11 @@
 # vue-gettext-extract
 Generates gettext pot files for standard Vue projects
 
+Designed to be used with
+[vue-gettext](https://github.com/Polyconseil/vue-gettext)
+and
+[nuxt-gettext](https://github.com/lajosbencz/nuxt-gettext)
+
 ### Install
 
 ```bash
