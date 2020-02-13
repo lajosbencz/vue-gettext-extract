@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const extract = require('../lib/index');
 const yargs = require('yargs');
 const meta = require('../package');
